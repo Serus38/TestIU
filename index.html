@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legislación y normativa</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="/fonts/Lato-Regular.ttf" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Barra superior -->
+    <header class="topbar">
+      <button class="topbar-menu" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <h1 class="topbar-title">Legislación y normativa</h1>
+    </header>
+
+    <main class="layout">
+      <section class="scene" aria-label="Escena imagen">
+        <img
+          src="img/Farmer2.png"
+          alt="Imagen de agricultor sin rostro"
+          class="scene-bg"
+          aria-hidden="true"
+        />
+
+        <!-- Clouds -->
+        <img
+          src="img/Cloud-1.svg"
+          alt=""
+          class="cloud cloud1"
+          aria-hidden="true"
+        />
+        <img
+          src="img/Cloud-2.svg"
+          alt=""
+          class="cloud cloud2"
+          aria-hidden="true"
+        />
+        <img
+          src="img/Cloud-3.svg"
+          alt=""
+          class="cloud cloud3"
+          aria-hidden="true"
+        />
+        <img
+          src="img/Cloud-4.svg"
+          alt=""
+          class="cloud cloud4"
+          aria-hidden="true"
+        />
+        <img
+          src="img/Cloud-5.svg"
+          alt=""
+          class="cloud cloud5"
+          aria-hidden="true"
+        />
+
+        <div class="farmer" aria-hidden="true">
+          <img src="img/Eyes.svg" alt="" class="farmer-eyes" />
+
+          <img src="img/arm.svg" alt="" class="farmer-arm" />
+        </div>
+      </section>
+
+      <!-- Content -->
+      <section class="content">
+        <article class="welcome-card">
+          <h2 class="welcome-card_title">¡Bienvenido!</h2>
+          <p class="welcome-card_body">
+            Luego de estudiar la legislación y normativa colombiana relacionada
+            con las buenas prácticas agropecuarias, te invito para que me ayudes
+            a completar todos los integrantes de mi granja y así poder comenzar
+            a aplicarlas.
+          </p>
+        </article>
+
+        <article class="how-card">
+          <span class="how-card_icon" aria-hidden="true">
+            <img src="img/icon-pencil.svg" alt="" />
+          </span>
+          <div>
+            <h3 class="how-card_title">¿Cómo lo vas a hacer?</h3>
+            <p class="how-card_body">
+              Primero elige el sector agropecuario que deseas trabajar, y luego
+              lee con detalle cada una de las instrucciones para así completar
+              mi granja
+            </p>
+          </div>
+        </article>
+
+        <nav class="btn-group" aria-label="Sectores agropecuarios">
+
+          <button class="sector-btn sector-btn-green" type="button">
+            <span class="sector-btn_icon">
+              <img src="img/icon-agric.svg" alt="" />
+            </span>
+            <span class="sector-btn_label">
+              Agricultura y<br />Granjas Avícolas<br />Bioseguras
+            </span>
+          </button>
+
+          <button class="sector-btn sector-btn-orange" type="button">
+            <span class="sector-btn_icon">
+              <img src="img/icon-ganad.svg" alt="" />
+            </span>
+            <span class="sector-btn_label">
+              Ganadería
+            </span>
+          </button>
+
+        </nav>
+
+      </section>
+
+    </main>
+    <!-- Barra de navegación -->
+    <footer class="bottombar">
+      <button class="bottombar__btn" aria-label="Favorito">
+        <img src="img/icon-fav.svg" alt="" />
+      </button>
+
+      <nav class="bottombar_nav" aria-label="Navegación">
+        <button class="bottombar_nav-btn" aria-label="Anterior">
+          <img src="img/icon-prev.svg" alt="" />
+        </button>
+        <button class="bottombar_nav-btn" aria-label="Inicio">
+          <img src="img/icon-home.svg" alt="" />
+        </button>
+        <button class="bottombar_nav-btn" aria-label="Siguiente">
+          <img src="img/icon-next.svg" alt="" />
+        </button>
+      </nav>
+
+      <div class="bottombar_right">
+        <button class="bottombar_btn" aria-label="Volumen">
+          <img src="img/icon-volume.svg" alt="" />
+        </button>
+        <button class="bottombar_btn" aria-label="Pantalla completa">
+          <img src="img/icon-fullscreen.svg" alt="" />
+        </button>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
