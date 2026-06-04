@@ -291,10 +291,7 @@ body {
   text-align: left;
   overflow: hidden;
   box-shadow: var(--shadow-card);
-  transition:
-    border-color 0.2s,
-    box-shadow 0.2s,
-    transform 0.15s;
+  transition: all 0.2s;
   position: relative;
 }
 
