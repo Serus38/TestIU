@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legislación y normativa</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link href="/fonts/Lato-Regular.ttf" rel="stylesheet" />
   </head>
   <body>
@@ -15,18 +15,11 @@
         <span></span>
         <span></span>
       </button>
-      <h1 class="topbar-title">Legislación y normativa</h1>
+      <h1 class="topbar-title">Legislación y normativa colombiana relacionada con las buenas prácticas agropecuarias</h1>
     </header>
 
     <main class="layout">
       <section class="scene" aria-label="Escena imagen">
-        <img
-          src="img/Farmer2.png"
-          alt="Imagen de agricultor sin rostro"
-          class="scene-bg"
-          aria-hidden="true"
-        />
-
         <!-- Clouds -->
         <img
           src="img/Cloud-1.svg"
@@ -58,11 +51,21 @@
           class="cloud cloud5"
           aria-hidden="true"
         />
-
-        <div class="farmer" aria-hidden="true">
-          <img src="img/Eyes.svg" alt="" class="farmer-eyes" />
-
-          <img src="img/arm.svg" alt="" class="farmer-arm" />
+        <!-- Farmer -->
+        <div class="farmer-wrapper">
+          <img
+            src="img/Farmer2.png"
+            alt="Imagen de agricultor sin rostro"
+            class="scene-bg"
+            aria-hidden="true"
+          />
+          <img
+            src="img/Eyes.svg"
+            alt=""
+            class="farmer-eyes"
+            aria-hidden="true"
+          />
+          <img src="img/arm.svg" alt="" class="farmer-arm" aria-hidden="true" />
         </div>
       </section>
 
@@ -93,7 +96,6 @@
         </article>
 
         <nav class="btn-group" aria-label="Sectores agropecuarios">
-
           <button class="sector-btn sector-btn-green" type="button">
             <span class="sector-btn_icon">
               <img src="img/icon-agric.svg" alt="" />
@@ -107,15 +109,10 @@
             <span class="sector-btn_icon">
               <img src="img/icon-ganad.svg" alt="" />
             </span>
-            <span class="sector-btn_label">
-              Ganadería
-            </span>
+            <span class="sector-btn_label"> Ganadería </span>
           </button>
-
         </nav>
-
       </section>
-
     </main>
     <!-- Barra de navegación -->
     <footer class="bottombar">
@@ -123,23 +120,23 @@
         <img src="img/icon-fav.svg" alt="" />
       </button>
 
-      <nav class="bottombar_nav" aria-label="Navegación">
-        <button class="bottombar_nav-btn" aria-label="Anterior">
+      <nav class="bottombar__nav" aria-label="Navegación">
+        <button class="bottombar__btn" aria-label="Anterior">
           <img src="img/icon-prev.svg" alt="" />
         </button>
-        <button class="bottombar_nav-btn" aria-label="Inicio">
+        <button class="bottombar__btn bottombar__btn--home" aria-label="Inicio">
           <img src="img/icon-home.svg" alt="" />
         </button>
-        <button class="bottombar_nav-btn" aria-label="Siguiente">
+        <button class="bottombar__btn" aria-label="Siguiente">
           <img src="img/icon-next.svg" alt="" />
         </button>
       </nav>
 
-      <div class="bottombar_right">
-        <button class="bottombar_btn" aria-label="Volumen">
+      <div class="bottombar__right">
+        <button class="bottombar__btn" aria-label="Volumen">
           <img src="img/icon-volume.svg" alt="" />
         </button>
-        <button class="bottombar_btn" aria-label="Pantalla completa">
+        <button class="bottombar__btn" aria-label="Pantalla completa">
           <img src="img/icon-fullscreen.svg" alt="" />
         </button>
       </div>
