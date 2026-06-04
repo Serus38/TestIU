@@ -457,6 +457,7 @@ body {
       gap: 10px;
     }
     .topbar_title {
+      gap: 8px;
       font-size: 0.75rem;
       white-space: nowrap;
       overflow: hidden;
